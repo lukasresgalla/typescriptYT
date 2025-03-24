@@ -1,0 +1,2 @@
+//objetos
+var User = {};

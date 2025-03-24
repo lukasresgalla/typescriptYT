@@ -1,0 +1,5 @@
+//objetos
+
+const User = {
+    
+}
