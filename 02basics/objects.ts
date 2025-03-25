@@ -9,3 +9,16 @@ const Usuario = {
     estaAtivo: true
 }
 
+//type alias   
+//para estruturas de objetos
+type Pessoa = {
+    nome: string,
+    idade: number, 
+}
+
+// para tipos
+type valor = string|number|boolean
+
+const n: valor = 'hasd'
+
+

@@ -7,3 +7,4 @@ var Usuario = {
     email: 'lukas.resgalla@bridge.ufsc.br',
     estaAtivo: true
 };
+var n = 'hasd';
