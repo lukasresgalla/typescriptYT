@@ -8,6 +8,8 @@ function somar(a, b) {
     return a + b
 }
 
+somar(2,3)
+
 //arrow function
 const somar2 = (a, b) => {
     return a + b
@@ -40,6 +42,23 @@ let semRetorno: void
 
 function semRetornoFuncao(): void {
     console.log('sem retorno')
+}
+
+//any
+let qualquerCoisa
+let qualquerCoisa2: any
+qualquerCoisa = 3
+qualquerCoisa = 'string'
+
+//unknown
+let desconhecido: unknown
+desconhecido = 3
+function fazAlgo(parametro: unknown) {
+    if (typeof parametro === 'string') {
+        console.log(parametro.toUpperCase())
+    } else {
+        console.log('não é uma string')
+    }
 }
 
 //array
@@ -89,7 +108,5 @@ enum diaDaSemana {
 const hojeEh = diaDaSemana.SEXTA
 console.log(hojeEh)
 
-//unknown
-let desconhecido: unknown
-desconhecido = 3
+
 

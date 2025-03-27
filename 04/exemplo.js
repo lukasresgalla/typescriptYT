@@ -5,6 +5,7 @@ function nomeDaFuncao(parametro) {
 function somar(a, b) {
     return a + b;
 }
+somar(2, 3);
 //arrow function
 var somar2 = function (a, b) {
     return a + b;
@@ -28,6 +29,22 @@ var nulo2 = null;
 var semRetorno;
 function semRetornoFuncao() {
     console.log('sem retorno');
+}
+//any
+var qualquerCoisa;
+var qualquerCoisa2;
+qualquerCoisa = 3;
+qualquerCoisa = 'string';
+//unknown
+var desconhecido;
+desconhecido = 3;
+function fazAlgo(parametro) {
+    if (typeof parametro === 'string') {
+        console.log(parametro.toUpperCase());
+    }
+    else {
+        console.log('não é uma string');
+    }
 }
 //array
 var arrayNumeros;
@@ -61,6 +78,3 @@ var diaDaSemana;
 })(diaDaSemana || (diaDaSemana = {}));
 var hojeEh = diaDaSemana.SEXTA;
 console.log(hojeEh);
-//unknown
-var desconhecido;
-desconhecido = 3;
