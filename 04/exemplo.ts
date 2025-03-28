@@ -10,13 +10,14 @@ function somar(a, b) {
 
 somar(2,3)
 
+
 //arrow function
 const somar2 = (a, b) => {
     return a + b
 }
 
 
-//numero
+//number
 let numero: number
 
 let numero2 = 3
@@ -108,5 +109,4 @@ enum diaDaSemana {
 const hojeEh = diaDaSemana.SEXTA
 console.log(hojeEh)
 
-
-
+    
